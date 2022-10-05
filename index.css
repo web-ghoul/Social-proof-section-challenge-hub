@@ -53,7 +53,7 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
     height: 100%;
 }
 
@@ -61,7 +61,7 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 120px;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -69,19 +69,20 @@ body {
     display: grid;
     justify-content: flex-start;
     align-items: center;
-    gap: 5px;
+    gap: 20px;
 }
 
 .contain .top .left h1 {
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 700;
-    letter-spacing: 0px;
+    width: 80%;
+    letter-spacing: -3px;
     color: hsl(300, 43%, 22%);
 }
 
 .contain .top .left p {
-    font-size: 15px;
-    color: hsl(303, 10%, 53%);
+    font-size: 17px;
+    color: hsl(300, 43%, 22%);
 }
 
 .contain .top .right {
@@ -138,7 +139,7 @@ body {
     align-items: center;
     gap: 20px;
     border-radius: 8px;
-    color: hsl(300, 24%, 96%);
+    color: hsl(0, 0%, 100%);
 }
 
 .contain .bottom .box:nth-child(3) {
@@ -157,8 +158,8 @@ body {
 }
 
 .contain .bottom .box .head .pic {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
 }
 
@@ -176,13 +177,17 @@ body {
     gap: 5px;
 }
 
+.contain .bottom .box .head .info .name {
+    font-size: 16px;
+}
+
 .contain .bottom .box .head .info span {
-    font-size: 15px;
+    font-size: 12px;
     color: hsl(333, 80%, 67%);
 }
 
 .contain p {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.6;
 }
 
